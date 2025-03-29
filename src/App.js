@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Profile Card</h1>
+      <div>
+          <div>
+             <img src="./images/Boy.jpg" height={300} width={300} alt='boy profile'/>
+          </div> 
+          <div>
+            <h2>Vicky Kaushal</h2>
+            <p>Actor</p>
+            <p>Kaushal was born on 16 May 1988 in a suburban chawl in Mumbai to Sham Kaushal, an action director in Indian films, and Veena Kaushal, a homemaker. His younger brother, Sunny, is also an actor. His family is Punjabi Hindu with their ancestral roots in Hoshiarpur, Punjab.</p>
+          </div>
+          <div>
+            <button>Connect</button>
+          </div>
+      </div>
     </div>
   );
 }
