@@ -1,12 +1,13 @@
 import './App.css';
+import boyimage from"./images/Boy.jpg";
 
 function App() {
   return (
     <div>
-      <h1>Profile Card</h1>
-      <div>
-          <div>
-             <img src="./images/Boy.jpg" height={300} width={300} alt='boy profile'/>
+      <h1 className='text-center font-mono font-bold text-2xl'>Profile Card</h1>
+      <div className='h-auto w-2/4 mx-auto my-10 border-solid border-black border-slate-300 border-4 p-10'>
+          <div className='flex justify-center'>
+             <img src={boyimage} height={180} width={180} alt='boy profile' className='rounded'/>
           </div> 
           <div>
             <h2>Vicky Kaushal</h2>
